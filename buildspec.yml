@@ -1,12 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo Software install chesthunna...
   build:
     commands:
-      - echo Code build chesthunna...
-  post_build:
-    commands:
-      - echo Build complete ayyindi!
+      - echo "Build started"
+artifacts:
+  files:
+    - '**/*'
